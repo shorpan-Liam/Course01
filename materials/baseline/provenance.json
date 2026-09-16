@@ -1,0 +1,9 @@
+{
+  "url": "https://api.github.com/repos/org2AI/ORG2",
+  "fetchedAt": "2026-09-16T13:26:28.145859+00:00",
+  "httpStatus": 200,
+  "contentType": "application/json; charset=utf-8",
+  "authenticatedRequest": true,
+  "sha256": "25de1432b9e33c20fa62a96efecebe1771d3d748d50e0f8a7357509a29cb0380",
+  "purpose": "teacher_material_only"
+}
