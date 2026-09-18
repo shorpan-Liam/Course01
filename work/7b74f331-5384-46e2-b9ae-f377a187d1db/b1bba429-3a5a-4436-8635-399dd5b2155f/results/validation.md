@@ -13,10 +13,10 @@ top_level_object: PASS
 full_name: PASS
 public: PASS
 default_branch_string: PASS
-stargazers_count_int: PASS
-forks_count_int: PASS
-open_issues_count_int: PASS
-fields:
+stargazers_count_present_nonnegative: PASS
+forks_count_present_nonnegative: PASS
+open_issues_count_present_nonnegative: PASS
+API facts (saved student response):
   full_name='org2AI/ORG2' (str)
   private=False (bool)
   default_branch='develop' (str)
@@ -26,4 +26,4 @@ fields:
   language='TypeScript' (str)
 ```
 
-The script parses the saved JSON, checks object type, repository identity/public flag, expected field types, and prints the fields used in analysis. The rate-limit error was also preserved, but is not used as the success response.
+The script parses only the saved student JSON, checks object type, repository identity/public flag, and that each counter is present as a real integer and non-negative (not merely truthy). Printed fields are API facts from that response; teacher baseline observations and inferences are discussed separately in `analysis.md`. The rate-limit error was also preserved, but is not used as the success response.
