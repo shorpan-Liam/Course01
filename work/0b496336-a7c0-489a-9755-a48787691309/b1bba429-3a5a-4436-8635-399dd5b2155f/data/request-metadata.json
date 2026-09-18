@@ -1,0 +1,9 @@
+﻿{
+    "url":  "https://api.github.com/repos/org2AI/ORG2",
+    "requestedAt":  "2026-09-18T16:21:42.0020495+08:00",
+    "httpStatus":  200,
+    "contentType":  "application/json; charset=utf-8",
+    "authenticatedRequest":  false,
+    "byteCount":  6023,
+    "sha256":  "DEB716CA2172978ADB297EC1A010EDA60D5A25CC7C06C0ED7C45DA400A141F5C"
+}
